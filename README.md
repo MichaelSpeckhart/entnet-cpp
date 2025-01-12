@@ -1,1 +1,1 @@
-# entnet_cpp
+# Qutron Entnet Qubyte Library
