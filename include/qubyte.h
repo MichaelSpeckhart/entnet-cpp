@@ -35,6 +35,8 @@ namespace qutron {
 
             int64_t momentum_mask(int64_t, int64_t);
 
+            int64_t rotate(int64_t, double);
+
         public:
             
             /**
@@ -59,11 +61,27 @@ namespace qutron {
              */
             ~qubyte();
 
+            /**
+             * @brief 
+             * 
+             * @return true 
+             * @return false 
+             */
             bool measure(int64_t);
 
+            /**
+             * @brief 
+             * 
+             */
             void evolve_loop();
 
+            /**
+             * @brief 
+             * 
+             */
             void stop();
+
+            int64_t direction(int64_t); 
 
 
         };
